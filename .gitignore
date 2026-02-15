@@ -1,0 +1,35 @@
+# Build
+/target/
+/target_release/
+
+# Cargo (opcional: quita la línea siguiente si quieres versionar Cargo.lock)
+# Cargo.lock
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+nul
+
+# Entorno y secretos
+.env
+.env.local
+*.pem
+
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Coverage (reportes generados; opcional, quita si quieres versionarlos)
+# coverage/
+# **/coverage/
+# **/lcov-report/

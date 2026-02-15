@@ -1,0 +1,4 @@
+# Carpeta de salida de compilación.
+# Si microtermi.exe está abierto y falla "Access is denied", Cargo escribe aquí
+# y el .exe nuevo queda en target_release/release/microtermi.exe
+build.target-dir = "target_release"
